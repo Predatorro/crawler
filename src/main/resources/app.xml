@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE components PUBLIC "-//DBFLUTE//DTD LastaDi 1.0//EN" 
+	"http://dbflute.org/meta/lastadi10.dtd">
+<components>
+	<include path="crawler_es.xml" />
+	<include path="config.xml" />
+
+	<component name="riverWeb" class="org.codelibs.riverweb.RiverWeb">
+	</component>
+
+	<component name="defaultUserAgent" class="java.lang.String">
+		<arg>"Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; River Web/${project.version})"
+		</arg>
+	</component>
+</components>
